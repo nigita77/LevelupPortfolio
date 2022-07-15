@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+<body class="container bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between p-2">
+        <a class="navbar-brand text-white logo" href="#">NK</a>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item active mx-3">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="#about-section">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="#project-section">Projects</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container hero-section">
+        <div class="hero-title">
+          <h1 class="text-white hero-name">Hello</h1>
+          <h1 class="text-white hero-name bottom-name">I am Nigita Kumal</h1>
+        </div>
+        <div class="hero-content">
+          <p class="text-white"> An aspiring backend engineer</p>
+        </div>
+      </section>
+
+
+      <section id="about-section" class="container hero-about">
+        <h1 class="text-white section-header">About Me</h1>
+        <div class="row d-flex justify-content-between text-white">
+          <div class="col-3 col-md-4 img-container">
+            <img src="nigita.jpg" alt="my-photo">
+          </div>
+          <div class="col-8 col-md-7">
+            <h1>Nigita Kumal</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque earum, quos praesentium distinctio voluptatum placeat accusamus! Quam ullam, quas id voluptas magnam quisquam quis recusandae minus, esse qui molestias!</p>
+            <div class="mb-3 d-flex">
+              <a href="https://github.com/nigita77" style="color: white"  target="_blank"><i class="bi-github mx-3"></i></a>
+              <a href="https://www.linkedin.com/in/nigita-kumal-53649318a/" style="color: white" target="_blank"><i class="bi-linkedin mx-3"></i></a>
+              <a href="https://twitter.com/KumalNigita" style="color: white" target="_blank"><i class="bi-twitter mx-3"></i></a>
+            </div>
+            <button class="btn">Download CV</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-section" class="container project-container">
+        <h1 class="text-start text-white section-header">Projects</h1>
+        <div class="row grid-container">
+          <div class="card project-card col"><img src="book.webp" alt=""> </div>
+          <div class="card project-card col"><img src="book.webp" alt=""></div>
+          <div class="card project-card col"><img src="book.webp" alt=""></div>
+          <div class="card project-card col"><img src="book.webp" alt=""></div>
+        </div>
+        <div class="row grid-container text-center">
+            <li class="col text-center text-white">Library Management System</li>
+            <li class="col text-center text-white">Library Management System</li>
+            <li class="col text-center text-white">Library Management System</li>
+            <li class="col text-center text-white">Library Management System</li>
+        </div>
+      </section>
+
+      <section id="contact-section" class="container contact-container">
+        <h1 class="text-start text-white section-header">Contacts</h1>
+        <form>
+          <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message..."></textarea>
+          </div>
+          <button type="submit" class="btn mb-3">Send message</button>
+        </form>
+      </section>
+
+      <section id="footer-section" class="container footer-container">
+        <p class="text-center text-white mb-4">Nigita Kumal . copyright &copy; 2022</p>
+      </section>
+
+    </main>
+</body>
+</html>

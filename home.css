@@ -1,0 +1,116 @@
+.section-header{
+    margin-bottom: 4rem;
+    width: fit-content;
+    font-size: 3rem;
+    position: relative;
+}
+.section-header::after{
+    content: "";
+    position: absolute;
+    bottom: -0.7rem;
+    left: 0;
+    width: 7rem;
+    height: 0.3rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.logo{
+    background-image: linear-gradient(to right, rgb(211,20,154),rgb(34,34,211));
+    padding: 0.4rem;
+    border-radius:0.2rem;
+    font-family: cursive;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Home Section*/
+.hero-section{
+    height: 30rem;
+}
+
+.hero-title{
+    margin-top: 8rem;
+}
+
+.hero-name::after{
+    content: "";
+    width:100%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.hero-name{
+    font-size: 3rem;
+}
+.bottom-name{
+    font-size: 4rem;
+    position: relative;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.bottom-name::after{
+    content: "";
+    position: absolute;
+    width:50%;
+    height: 0.3rem;
+    background-image: linear-gradient(to right, rgb(211,20,154),rgb(34,34,211));
+    bottom: -1.3rem;
+    left: 0;
+    border-radius: 1rem;
+
+}
+
+.hero-content{
+    margin-top: 4rem;
+}
+
+/*About section*/
+.img-container{
+    height: 20rem;
+}
+
+.btn{
+    background-color: rgb(211,20,154) !important;
+    color: white !important;
+}
+
+i{
+    font-size: 1.7rem;
+}
+
+/*Project Section*/
+.project-container,.contact-container,.footer-container{
+    margin-top: 5rem;
+}
+
+.project-card{
+    height: 15rem !important;
+    cursor: pointer;
+    padding: 0 !important;
+    border: 2px solid white!important;
+    overflow: hidden;
+}
+.card:not(:first-child){
+    margin-left: 1rem;
+    
+}
+li{
+    list-style: none;
+}
+/*contact-section*/
+form{
+    width: 50%;
+    margin: auto;
+}
+
+.form-control{
+    background-color: transparent !important;
+    color: white !important;
+
+}
